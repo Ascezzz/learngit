@@ -1,0 +1,98 @@
+*{
+    margin:0;padding:0;
+}
+a{
+    text-decoration: none;
+}
+.login{
+	width: 100%;
+	height: 100%;
+	background: #2ab2fe;
+	background-size: cover;
+	position: fixed;z-index: -10;
+}
+.welcome{
+	top: 120px;
+	position: relative;
+	height: 150px;
+	text-align: center;
+}
+.welcome p{
+	color: #fff;
+	font-family: 微软雅黑;
+	font-size: 35px;	
+}
+.login-id{
+	text-align: center;
+	color: #fff;
+}
+.login-id a{
+	color: #fff;
+	padding: 0 5px;
+}
+.login-con{
+	top: 55px;
+    position: relative;
+    width: 100%;
+    height: 20%;  
+}
+.login-con ul li{
+    width:70%; 
+    height:25px; 
+    margin: 18px 0 0 15%;
+    border-bottom:1px 
+    solid #fff;
+    list-style: none;
+}
+
+.login-con ul li input::-webkit-input-placeholder {
+        color: #fff;
+}
+.login-con ul li img{
+    margin-top: -10px;
+    width: 2.3em;
+    height: 2em;
+}
+.login-con .username{
+    position: absolute;
+    margin-left: 3%;
+    width: 60%;
+    height:25px;  
+    border: none; 
+    background: none; 
+    color: #fff;
+}
+.login-con .password{
+    position: absolute; 
+    top: 50px; 
+    margin-left: 3%; 
+    width: 60%;
+    height: 20px; 
+    border: none;
+    background: none;
+    color: #fff;
+}
+.login-button {
+	position: relative;
+	top: 50px;
+    display: block;
+    width:70%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: #fff;
+    text-align: center;
+    border: none;
+}
+.login-button p{
+    font-size: 20px;
+    line-height: 40px;
+    color: #2ab2fe;
+}
+.forget p{
+	position: relative;
+	top: 55px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
